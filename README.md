@@ -26,3 +26,6 @@ There are two options for cleaning:
 
 * `make clean` - clean all object, binary files, etc but not *libopencm3*.
 * `make distclean` - clean all, including libopencm3 build. After this call, the *libopencm3* library must be rebuild using `make libs`.
+
+# Credits
+This project was build based on the [Warren's Gay](https://github.com/ve3wwg/stm32f103c8t6 "Warren's Gay repo") repository. It's stripped to create the lightest option possible.
